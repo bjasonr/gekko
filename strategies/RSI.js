@@ -34,7 +34,7 @@ method.init = function() {
 // for debugging purposes log the last
 // calculated parameters.
 method.log = function(candle) {
-  var digits = 8;
+  var digits = 2;
   var rsi = this.indicators.rsi;
 
   log.debug('calculated RSI properties for candle:');

@@ -1,4 +1,4 @@
-interval = 14
+interval = 6
 
 [thresholds]
 low = 30

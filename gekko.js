@@ -32,7 +32,7 @@ console.log(`
    $$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/  $$$$$$/
 `);
 
-const util = require(__dirname + '/core/util');
+const util = require('./core/util');
 
 console.log('\tGekko v' + util.getVersion());
 console.log('\tI\'m gonna make you rich, Bud Fox.', '\n\n');
